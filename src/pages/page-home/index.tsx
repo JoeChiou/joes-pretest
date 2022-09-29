@@ -13,7 +13,7 @@ export const PageHome = () => {
   useEffect(() => {
     fetchData();
   }, [])
-  console.log(data.articles);
+  
   return (
     <PageBase>
       <Box>
